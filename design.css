@@ -24,6 +24,18 @@
   cursor: pointer;
 }
 
+.progress {
+  height: 20px;
+  color: chartreuse;
+}
+
+.progress-bar {
+  color: black;
+  width: 25%;
+  height: 20px;
+}
+
+
 
 h1 {
   color: #c94509;
