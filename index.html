@@ -2,68 +2,423 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-    
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153101777-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag("js", new Date());
-
-        gtag("config", "UA-153101777-1");
-    </script>
-
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Magnus Ahlqvist</title>
-    <meta name="description" content="Roughly 155 characters" />
-    <link rel="stylesheet" href="design.css" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- Favicons -->
+    <link href="img/FSlogo.png" rel="icon" />
+    <link href="img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <!-- Bootstrap CSS File -->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Libraries CSS Files -->
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+
+    <!-- Main Stylesheet File -->
+    <link href="css/style.css" rel="stylesheet" />
+
+    <!-- =======================================================
+    Theme Name: DevFolio
+    Theme URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
+    Author: BootstrapMade.com
+    License: https://bootstrapmade.com/license/
+  ======================================================= -->
 </head>
 
-<body>
-    <nav>
-        <div id="cssmenu">
-            <ul>
-                <li class="active">
-                    <a href="index.html"><span>Magnus Ahlqvist</span></a>
-                </li>
-                <li>
-                    <a href="projekt.html"><span>Project</span></a>
-                </li>
-                <li>
-                    <a href="portfolj.html"><span>Portfolio</span></a>
-                </li>
-                <li>
-                    <a href="topsecret.html"><span>Top Secret</span></a>
-                </li>
-            </ul>
+<body id="page-top">
+    <!--/ Nav Star /-->
+    <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll" href="#page-top">Magnus Ahlqvist</a>
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault" aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+            <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll" href="#work">School Projects</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
-    <div class="bg-image"></div>
+    <!--/ Nav End /-->
 
-    <div class="bg-text">
-        <h1>Magnus Ahlqvist</h1>
-        <a href="https://github.com/Magnusahl" class="button" target="blank">Github</a
-            >
-            <br>
-        <a href=" https://www.linkedin.com/in/magnus-ahlqvist-b01aa716a" class="button" target="blank">Linkedin</a>
-      <br />
-      <a href="mailto:fluhay@gmail.com" class="button">Send a email</a>
+    <!--/ Intro Skew Star /-->
+    <div id="home" class="intro route bg-image" style="background-image: url(img/water.jpg)">
+        <div class="overlay-itro"></div>
+        <div class="intro-content display-table">
+            <div class="table-cell">
+                <div class="container">
+                    <!--<p class="display-6 color-d">Hello, world!</p>-->
+                    <h1 class="intro-title mb-4">I am Magnus Ahlqvist</h1>
+                    <p class="intro-subtitle">
+                        <span class="text-slider-items">CEO Fluanstudios,Mobile App Developer</span
+              ><strong class="text-slider"></strong>
+            </p>
+            <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
+          </div>
+        </div>
+      </div>
     </div>
+    <!--/ Intro Skew End /-->
 
-    <div class="progress">
-        <h6>Hemsida</h6>
-        <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated">25%</div>
-        <h6>Hemsida slut</h6>
+    <section id="about" class="about-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="box-shadow-full">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="row">
+                    <div class="col-sm-6 col-md-5">
+                      <div class="about-img">
+                        <img
+                          src="img/MA.png"
+                          class="img-fluid rounded b-shadow-a"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-7">
+                      <div class="about-info">
+                        <p>
+                          <span class="title-s">Name: </span>
+                        <span>Magnus Ahlqvist</span>
+                    </p>
+                    <p>
+                        <span class="title-s">Profile: </span>
+                        <span>Mobile App Developer</span>
+                    </p>
+                    <p>
+                        <span class="title-s">Email: </span>
+                        <span>fluhay@gmail.com</span>
+                    </p>
+                    <p>
+                        <span class="title-s">Phone: </span>
+                        <span>+46 702794104</span>
+                    </p>
+                    <p>
+                        <span class="title-s">My 
+                            </span>
+                            <span><a href="https://www.linkedin.com/in/magnus-ahlqvist-b01aa716a/">LinkedIn</a>
+                            </span>
+                        </p>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="skill-mf">
+            <p class="title-s">Skills</p>
+            <span>GIT</span> <span class="pull-right">50%</span>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <span>HTML/CSS</span> <span class="pull-right">45%</span>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 45%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <span>JAVASCRIPT</span> <span class="pull-right">30%</span>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 30%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <span>JAVA</span> <span class="pull-right">45%</span>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 45%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <span>SWIFT</span> <span class="pull-right">40%</span>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <span>Kotlin</span> <span class="pull-right">10%</span>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 10%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <span>API and backends </span> <span class="pull-right">5%</span>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 5%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <span>React Native</span> <span class="pull-right">5%</span>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 5%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+        </div>
     </div>
-    
+    <div class="col-md-6">
+        <div class="about-me pt-4 pt-md-0">
+            <div class="title-box-2">
+                <h5 class="title-left">
+                    About me
+                </h5>
+            </div>
+            <p class="lead">
+                I am 34 years old and live in Huddinge outside of Stockholm with my partner and daughter. <br>
+                I have been doing programming for about 1.5 years. 
+                Before I started at STI, I mainly programming java via android studio. <br>
+                In school I have been taught how to make web, javascript, java, and Swift apps. <br>
+                Xcode and swift have been very interesting and fun to develop in. <br>
+                Later this spring I will also have the opportunity to learn more about android studio and Kotlin.
+            </p>
+            <p class="lead">
+                In my spare time, I like to work out and spend time with my daughter and partner. <br> Forest walks or being out in the fringe of skerries is life enjoyment for me.
+               <br> Sport is another passion, not as much as a performer, but more so as a supporter. <br>
+                I like playing video games. Racing, sports, adventure and action games.
+            </p>
+            <p class="lead">
+                I am looking for an internship in Stockholm this fall from week 40, 2020.
+            </p>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </section>
+
+    <!--/ Section Portfolio Star /-->
+    <section id="work" class="portfolio-mf sect-pt4 route">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="title-box text-center">
+                        <h3 class="title-a">
+                            School Projects
+                        </h3>
+                        <p class="subtitle-a">
+                            Projects finished during my time on STI
+                        </p>
+                        <div class="line-mf"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="work-box">
+                        <a href="https://magnusahl.github.io/ProjektWebsida/" target="blank">
+                            <div class="work-img">
+                                <img src="img/DeluxeP.PNG" alt="" class="img-fluid" />
+                            </div>
+                        </a>
+                        <div class="work-content">
+                            <div class="row">
+                                <div class="col-sm-8">
+                                    <h2 class="w-title">Deluxe Parkering</h2>
+                                    <div class="w-more">
+                                        <span class="w-ctegory">Web App</span> /
+                                        <span class="w-date">2019</span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="work-box">
+                        <a href="https://magnusahl.github.io/ProjektWebsida/" target="blank">
+                            <div class="work-img">
+                                <img src="img/DesignUX.PNG" alt="" class="img-fluid" />
+                            </div>
+                        </a>
+                        <div class="work-content">
+                            <div class="row">
+                                <div class="col-sm-8">
+                                    <h2 class="w-title">Design UX/UI</h2>
+                                    <div class="w-more">
+                                        <span class="w-ctegory">App design Adobe XD</span>
+                                        <span class="w-date">2019</span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="work-box">
+                        <a href="https://magnusahl.github.io/projekt-timetable/" target="blank">
+                            <div class="work-img">
+                                <img src="img/Timetabel.PNG" alt="" class="img-fluid" />
+                            </div>
+                        </a>
+                        <div class="work-content">
+                            <div class="row">
+                                <div class="col-sm-8">
+                                    <h2 class="w-title">Timetabel Pendeltåg</h2>
+                                    <div class="w-more">
+                                        <span class="w-ctegory">Javascript app</span> /
+                                        <span class="w-date">2019</span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="work-box">
+                        <a href="https://repl.it/@MagnusAhlqvist/Projekt-Tre-i-rad" target="blank">
+                            <div class="work-img">
+                                <img src="img/Threein.PNG" alt="" class="img-fluid" />
+                            </div>
+                        </a>
+                        <div class="work-content">
+                            <div class="row">
+                                <div class="col-sm-8">
+                                    <h2 class="w-title">Three in a row game</h2>
+                                    <div class="w-more">
+                                        <span class="w-ctegory">Java game</span> /
+                                        <span class="w-date">2020</span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="work-box">
+                        <a href="https://github.com/Magnusahl/BoT-app" target="blank">
+                            <div class="work-img">
+                                <img src="img/IconProjsa.png" alt="" class="img-fluid" />
+                            </div>
+                        </a>
+                        <div class="work-content">
+                            <div class="row">
+                                <div class="col-sm-8">
+                                    <h2 class="w-title">Pröjsa / Pay Up</h2>
+                                    <div class="w-more">
+                                        <span class="w-ctegory">iOS app</span> /
+                                        <span class="w-date">2020</span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="work-box">
+                        <a href="https://github.com/Magnusahl/BoT-app" target="blank">
+                            <div class="work-img">
+                                <img src="img/work-2.jpg" alt="" class="img-fluid" />
+                            </div>
+
+                            <div class="work-content">
+                                <div class="row">
+                                    <div class="col-sm-8">
+                                        <h2 class="w-title">Project</h2>
+                                        <div class="w-more">
+                                            <span class="w-ctegory">Project Methodology</span> /
+                                            <span class="w-date">2020</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4"></div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="work-box">
+                        <a href="https://github.com/Magnusahl/BoT-app" target="blank">
+                            <div class="work-img">
+                                <img src="img/work-2.jpg" alt="" class="img-fluid" />
+                            </div>
+
+                            <div class="work-content">
+                                <div class="row">
+                                    <div class="col-sm-8">
+                                        <h2 class="w-title">Android</h2>
+                                        <div class="w-more">
+                                            <span class="w-ctegory">Kotlin</span> /
+                                            <span class="w-date">2020</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4"></div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    -->
+
+    <!--/ Section Portfolio End /-->
+
+   
+   
+
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="copyright-box">
+                        <p class="copyright">
+                            &copy; Copyright <strong>DevFolio</strong>. All Rights Reserved
+                        </p>
+                        <div class="credits">
+                            <!--
+                  All the links in the footer should remain intact.
+                  You can delete the links only if you purchased the pro version.
+                  Licensing information: https://bootstrapmade.com/license/
+                  Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=DevFolio
+                -->
+                            Designed by
+                            
+                            <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        Photo by Matt Hardy on Unsplash
+    </footer>
+
+    <!--/ Section Contact-footer End /-->
+
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+    <div id="preloader"></div>
+
+    <!-- JavaScript Libraries -->
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/jquery/jquery-migrate.min.js"></script>
+    <script src="lib/popper/popper.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/counterup/jquery.waypoints.min.js"></script>
+    <script src="lib/counterup/jquery.counterup.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <!-- Contact Form JavaScript File -->
+    <script src="contactform/contactform.js"></script>
+
+    <!-- Template Main Javascript File -->
+    <script src="js/main.js"></script>
 </body>
 
 </html>
